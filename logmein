@@ -15,7 +15,7 @@ def connector():
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			s.settimeout(3)
-			s.connect(('www.aitpune.com', 80))
+			s.connect(('http://www.gstatic.com/', 80))
 			s.settimeout(None)
 			break
 		except:
